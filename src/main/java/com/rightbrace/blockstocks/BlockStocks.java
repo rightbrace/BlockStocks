@@ -61,7 +61,8 @@ public class BlockStocks extends JavaPlugin implements Listener {
             return;
         }
         
-        marketGui = Bukkit.createInventory(null, 9, "BlockStocks Market");
+        int slots = getConfig().getInt("inventory-slots", 9);
+        marketGui = Bukkit.createInventory(null, slots, "BlockStocks Market");
         getServer().getPluginManager().registerEvents(this, this);
         getCommand("market").setExecutor(new MarketCommand());
         constructGui();

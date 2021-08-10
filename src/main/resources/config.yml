@@ -1,5 +1,6 @@
 trade-fee: 0
 
+inventory-slots: 18
 items:
   0:
     type: DIAMOND
