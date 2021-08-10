@@ -1,0 +1,10 @@
+name: BlockStocks
+version: 0.1.0
+main: com.rightbrace.blockstocks.BlockStocks
+api-version: 1.17
+
+commands:
+    market:
+        description: Opens the BlockStocks market.
+        usage: /<command>
+        permission: blockstocks.trade

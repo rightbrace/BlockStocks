@@ -1,0 +1,8 @@
+trade-fee: 0
+
+items:
+  0:
+    type: DIAMOND
+    initial-value: 100
+    volatility: 0.5
+    net-purchases: 0
